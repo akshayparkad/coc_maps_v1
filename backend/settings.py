@@ -16,9 +16,7 @@ import os
 from decouple import config
 
 
-config.encoding = 'cp1251'
-
-# Build paths inside the project like this: BASE_DIR / 'subdir'.
+# Build paths i nside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 
@@ -31,7 +29,7 @@ SECRET_KEY = config('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = config('DEBUG', default=True, cast=bool)
 
-ALLOWED_HOSTS = ['django-env.eba-ve5nmp3p.us-west-2.elasticbeanstalk.com']
+ALLOWED_HOSTS = ['django-env.eba-urm32bje.us-west-2.elasticbeanstalk.com', 'localhost', '127.0.0.1']
 
 
 # Application definition
