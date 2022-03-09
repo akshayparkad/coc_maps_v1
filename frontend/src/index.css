@@ -1,0 +1,79 @@
+main {
+    min-height: 80vh;
+}
+
+.nav-link{
+    border-radius: 0.5rem;
+}
+
+body{
+    font-family: 'Supercell-Magic' !important;
+    /* font-size: inherit; */
+       background-image: url("./images/Clash-of-Clans-base.jpg");
+
+}
+
+@font-face {
+    font-family: 'Supercell-Magic';
+    src: local('Supercell-Magic'), url(./fonts/Supercell-Magic.woff) format('woff'),
+         local('Supercell-Magic'), url(./fonts/Supercell-Magic.eot) format('eot'),
+         local('Supercell-Magic'), url(./fonts/Supercell-Magic.woff2) format('woff2'),
+         local('Supercell-Magic'), url(./fonts/Supercell-Magic.ttf) format('ttf');
+        
+  }
+
+  :root {
+    font-family: 'Supercell-Magic' !important;
+}
+
+.navbar-brand{
+    color: indigo !important;
+    font-size: 2rem !important;
+    text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+    ;
+    
+}
+
+.nav-link{
+    color: orange ;
+    text-shadow: 0 0 2px #fff;
+
+}
+
+.about-text{
+    color : white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.about-background{
+    background-color: rgba(78, 64, 128, 0.5);
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 10px;
+}
+
+.footer-text{
+    color: aliceblue;
+    margin-top: 100%;
+    bottom: 6.3%;
+}
+
+.footer-text-policy{
+    color: aliceblue;
+    font-size: 1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    bottom: 0;
+}
+
+footer{
+    background-color: rgba(78, 64, 128, 0.5);
+
+}
+
+.link{
+    color: aliceblue !important;
+}
+
