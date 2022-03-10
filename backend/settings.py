@@ -31,7 +31,7 @@ SECRET_KEY = '32n9p!34wxl#icd72@w7_&q1+ss)a6umc7d2lut7)$2)fci=r_'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'new-coc-bases.herokuapp.com']
 
 
 # Application definition
